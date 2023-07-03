@@ -111,8 +111,8 @@ body {
   transition: transform 0.5s ease-out;
 }
 
-.nav-link:hover::after,
-.nav-link:focus::after,
+/* .nav-link:hover::after,
+.nav-link:focus::after, */
 .current::after {
   transform: scaleX(1);
 }
@@ -800,8 +800,6 @@ img {
 }
 
 .modal-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -876,8 +874,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 4px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -920,6 +916,11 @@ input {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 0;
+}
+
+.modal-field-privacy label {
+  margin-bottom: 0;
 }
 
 .custom-checkbox {
